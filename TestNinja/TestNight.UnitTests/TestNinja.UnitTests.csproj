@@ -9,8 +9,8 @@
     <ProjectGuid>{AC6FCCAC-4533-44A4-AFA6-13F16D8BE80A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestNight.UnitTests</RootNamespace>
-    <AssemblyName>TestNight.UnitTests</AssemblyName>
+    <RootNamespace>TestNinja.UnitTests</RootNamespace>
+    <AssemblyName>TestNinja.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,6 +56,10 @@
   <ItemGroup>
     <Compile Include="ReservationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MathTests.cs" />
+    <Compile Include="HtmlFormatterTests.cs" />
+    <Compile Include="CustomerControllerTests.cs" />
+    <Compile Include="ErrorLoggerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
